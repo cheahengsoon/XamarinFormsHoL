@@ -1,0 +1,2 @@
+D:\MY.NET\TempProject\XMenuApp\XMenuApp\XMenuApp.UWP\XMenuApp.UWP.csproj;x86
+D:\MY.NET\TempProject\XMenuApp\XMenuApp\XMenuApp\XMenuApp.csproj;neutral
