@@ -26,3 +26,16 @@ Xamarin.Forms Hands on Labs
 [Xamarin.Forms HoL - Component plugin](https://github.com/k-net-community/XamarinFormsHoL/blob/master/Xamaring.Forms%20HoL%20-%20Camera.md)
 
 延續 Xamarin.Forms MasterDetail Page Lab，加入拍照功能，透過這個Lab 將學會如何使用 Xamarin 所提供的Component plugin。
+
+## Xamarin.Forms HoL - XDayLab1 ##
+
+透過這個Lab 將學會如何使用 Xamarin.Forms UI。
+
+
+## Xamarin.Forms HoL - XDayLab2 ##
+
+透過這個Lab 將學會如何使用 Xamarin.Forms 訊息對話框以及透按鈕事件進行撥號功能。
+
+## Xamarin.Forms HoL - XDayLab3 ##
+
+透過這個Lab 將學會如何使用 Xamarin.Forms 的橫向滑動UI，該UI常見於照片或圖片滑動顯示。
