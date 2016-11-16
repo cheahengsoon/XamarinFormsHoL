@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XDayLab2"
+             x:Class="XDayLab2.MainPage"
+             Padding="10, 20, 10, 20">
+
+  <ScrollView>
+    <StackLayout Spacing="0" Padding="5,5,0,0" BackgroundColor="Maroon">
+
+      <Image Source="picon.png" HeightRequest="60" WidthRequest="60" HorizontalOptions="Center" VerticalOptions="Start"/>
+
+      <StackLayout HeightRequest="100" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="Maroon">
+        <Label Text="User Name" FontSize="28" HorizontalOptions="Center"
+          VerticalOptions="Center" FontAttributes="Bold" />
+        <Entry Text="Ian Chen" TextColor="White"
+          BackgroundColor="Maroon" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Padding="5,15,0,5">
+        <Label FontSize="14" Text="Age:" TextColor="White" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+        <Slider x:Name="AgeInput" Maximum="100" Minimum="1" WidthRequest="260"/>
+        <Label x:Name="AgeVal" FontSize="14" TextColor="White"/>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Padding="5,15,0,5">
+        <Label FontSize="14" Text="Phone No:" TextColor="White"
+        HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" />
+        <Entry HorizontalOptions="FillAndExpand" Text="12345678" TextColor="White" BackgroundColor="Maroon" />
+      </StackLayout>
+
+      <StackLayout Orientation="Vertical" Padding="5,15,0,5">
+        <Button Text="Save" x:Name="SaveBtn" HorizontalOptions="FillAndExpand" />
+        <Button Text="Dial Phone" x:Name="DialBtn" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+    </StackLayout>
+  </ScrollView>
+
+</ContentPage>
